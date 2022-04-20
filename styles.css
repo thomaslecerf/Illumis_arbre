@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* carte */
+
+.konoha {
+  height: 100vw;
+  background-image: url("carte_arbre.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Itachie {
+  position: absolute;
+  width: 99vw;
+  top: 50%;
+  left: 2%;
+}
+
+
+
+
+.icon {
+  width: 6rem;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+.infos {
+  display: none;
+}
+
+
+
+
+.icon:hover + .infos {
+  position: absolute;
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 0px;
+  width: 30vw;
+}
+
+
+
+
+#Suna {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+}
+
+#Kumo {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+#Kiri {
+  position: absolute;
+  top: 77%;
+  left: 32%;
+}
+
+#Ame {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+
+#Aiwa { 
+  position: absolute;
+  top: 80%;
+  left: 55%;
+}
+
+#Oto {
+  position: absolute;
+  top: 85%;
+  left: 65%;
+}
